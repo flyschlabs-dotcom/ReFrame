@@ -3,61 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ReFrame — Soporte y Políticas</title>
+    <title>ReFrame — Asistente de Composición Fotográfica</title>
     
-    <meta name="google-site-verification" content="MKkk6rQdc6TMpPDr0xeFWKKrP1QC79ClzQst91kD4c8" />
+    <meta name="google-site-verification" content="MKkk6RQdc6TMppDr0xeFWKXRPiQC79ClZqst91kD4c8" />
     
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             line-height: 1.6;
             color: #333;
-            max-width: 800px;
+            max-width: 850px;
             margin: 0 auto;
             padding: 20px;
-            background-color: #f9f9f9;
+            background-color: #f8f9fa;
         }
         .container {
             background: #ffffff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            padding: 35px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
         }
-        h1 { color: #111; border-bottom: 2px solid #eee; padding-bottom: 10px; }
-        h2 { color: #222; margin-top: 30px; }
-        ul { padding-left: 20px; }
-        .footer { margin-top: 40px; font-size: 0.9em; color: #666; border-top: 1px solid #eee; padding-top: 15px; }
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #eaeaea;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        h1 { color: #111; margin-bottom: 5px; font-size: 2.2em; }
+        .tagline { color: #666; font-size: 1.1em; font-weight: 500; }
+        h2 { color: #1a73e8; margin-top: 30px; font-size: 1.4em; border-bottom: 1px solid #eee; padding-bottom: 8px; }
+        ul, ol { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+        .hero-box {
+            background-color: #e8f0fe;
+            border-left: 4px solid #1a73e8;
+            padding: 18px 20px;
+            border-radius: 4px;
+            margin-bottom: 25px;
+        }
+        .footer { margin-top: 40px; font-size: 0.9em; color: #777; border-top: 1px solid #eee; padding-top: 15px; text-align: center; }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>ReFrame — Soporte y Políticas</h1>
-        <p>Bienvenido a la página oficial de asistencia de <strong>ReFrame</strong>, tu asistente de encuadre y composición fotográfica.</p>
+        <div class="header">
+            <h1>ReFrame</h1>
+            <p class="tagline">Aplicación móvil de asistencia, encuadre y composición fotográfica</p>
+        </div>
+
+        <div class="hero-box">
+            <h3 style="margin-top:0; color: #1a73e8;">¿Qué es ReFrame y cuál es su propósito?</h3>
+            <p><strong>ReFrame</strong> es una herramienta diseñada para fotógrafos y aficionados a la fotografía que busca mejorar el encuadre, la composición y la técnica visual antes y durante la captura de imágenes.</p>
+            <p>La aplicación ayuda a los usuarios a visualizar guías de composición en tiempo real, analizar parámetros de captura y organizar sus proyectos fotográficos de manera intuitiva.</p>
+        </div>
+
+        <h2>🎯 Funcionalidades Principales</h2>
+        <ul>
+            <li><strong>Asistente de Encuadre:</strong> Proporciona guías visuales y reglas de composición (regla de los tercios, proporción áurea, simetría) para mejorar la estética de cada foto.</li>
+            <li><strong>Análisis de Composición:</strong> Evalúa capturas e imágenes para ofrecer recomendaciones prácticas sobre perspectiva y encuadre.</li>
+            <li><strong>Gestión de Proyectos Fotográficos:</strong> Permite guardar preferencias de usuario y proyectos sincronizados de forma segura.</li>
+            <li><strong>Autenticación Segura:</strong> Integración con Google Sign-In para que los usuarios puedan iniciar sesión de forma rápida y proteger sus ajustes personalizados.</li>
+        </ul>
 
         <h2>📩 Atención al Cliente y Soporte</h2>
         <p>Si tienes preguntas, sugerencias o necesitas ayuda con la aplicación, ponte en contacto con nosotros:</p>
         <ul>
-            <li><strong>Correo electrónico:</strong> flyschlabs@gmail.com</li>
-            <li><strong>Horario de atención:</strong> Lunes a Viernes de 10:00 a 18:00 (Respuesta en menos de 24h)</li>
+            <li><strong>Correo electrónico de soporte:</strong> flyschlabs@gmail.com</li>
+            <li><strong>Horario de atención:</strong> Lunes a Viernes de 10:00 a 18:00 (Respuesta habitual en menos de 24 horas)</li>
         </ul>
 
         <h2>🔒 Política de Privacidad</h2>
         <p><em>Última actualización: Agosto 2026</em></p>
         <ul>
-            <li><strong>Datos recabados:</strong> Solo recopilamos los datos estrictamente necesarios para la autenticación mediante la API de Google y Firebase (nombre y dirección de correo electrónico).</li>
-            <li><strong>Uso de imágenes:</strong> ReFrame procesa tus fotografías únicamente con fines de análisis de composición dentro del dispositivo. No almacenamos ni compartimos tus imágenes en servidores externos sin tu consentimiento.</li>
-            <li><strong>Terceros:</strong> La autenticación se gestiona de forma segura a través de Google Cloud Platform y Firebase Authentication.</li>
+            <li><strong>Datos recopilados:</strong> Solo recopilamos información básica del perfil (nombre y dirección de correo electrónico) proporcionada a través de la API de autenticación de Google y Firebase.</li>
+            <li><strong>Uso de las fotografías:</strong> ReFrame no sube ni comparte tus imágenes en servidores externos sin tu autorización explícita; el procesamiento visual se realiza de forma privada.</li>
+            <li><strong>Protección de datos:</strong> No vendemos ni transferimos datos de usuarios a terceros. La autenticación se realiza con los estándares de seguridad de Google Cloud Platform.</li>
         </ul>
 
-        <h2>📄 Términos y Condiciones de Uso</h2>
+        <h2>📄 Términos de Servicio</h2>
         <ol>
-            <li><strong>Uso de la aplicación:</strong> ReFrame se proporciona "tal cual" como herramienta de apoyo fotográfico.</li>
-            <li><strong>Propiedad intelectual:</strong> Todos los derechos de las imágenes capturadas dentro de la app pertenecen íntegramente al usuario.</li>
-            <li><strong>Modificaciones:</strong> Nos reservamos el derecho de actualizar la aplicación para introducir mejoras técnicas o de seguridad.</li>
+            <li><strong>Aceptación:</strong> Al utilizar ReFrame, aceptas estos términos de uso responsable de la aplicación.</li>
+            <li><strong>Propiedad intelectual:</strong> Todas las fotos capturadas o procesadas en la app son propiedad exclusiva del usuario.</li>
+            <li><strong>Uso permitido:</strong> ReFrame se ofrece como herramienta de asistencia técnica y artística para uso personal o profesional.</li>
         </ol>
 
         <div class="footer">
-            <p>&copy; 2026 ReFrame. Todos los derechos reservados.</p>
+            <p>&copy; 2026 ReFrame (FlyschLabs). Todos los derechos reservados.</p>
         </div>
     </div>
 </body>
