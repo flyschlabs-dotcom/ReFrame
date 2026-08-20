@@ -1,3 +1,5 @@
+<meta name="google-site-verification" content="MKkk6rQdc6TMpPDr0xeFWKKrP1QC79ClzQst91kD4c8" />
+
 # ReFrame — Soporte y Políticas
 
 Bienvenido a la página oficial de asistencia de **ReFrame**, tu asistente de encuadre y composición fotográfica.
